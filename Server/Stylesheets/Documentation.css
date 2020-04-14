@@ -1,0 +1,144 @@
+.Topic {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+pre {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+code {
+    color: whitesmoke;
+    font-family: Courier New, monospace;
+}
+
+code.Inline {
+    background-color: #333333;
+    padding: 1px 3px 1px 3px;
+    border-radius: 5px;
+}
+
+code .Class {
+    color: wheat;
+}
+
+.type {
+    color: whitesmoke;
+}
+
+code .Function {
+    color: #FFC66D;
+}
+
+code .Argument {
+}
+
+code .Variable {
+    color: #9876AA;
+}
+
+code .Const {
+    color: #A7543F;
+}
+
+code .Console {
+    color: #99ff66;
+}
+
+code .Field {
+    color: #999999;
+}
+
+code .Boolean,
+code .Bool,
+code .NULL,
+code .Null,
+code .Keyword {
+    color: orange;
+}
+
+code .Double,
+code .Float,
+code .Integer,
+code .Int {
+    color: lightblue;
+}
+
+code .String,
+code .BlockComment {
+    color: olivedrab;
+}
+
+code .Comment {
+    color: slategray;
+}
+
+.Argument.Object {
+    color: firebrick;
+}
+
+.Argument.Array {
+    color: Olive;
+}
+
+.Argument.Resource {
+    color: Orchid;
+}
+
+code .Recommended, code .NotRecommended, code .Language {
+    padding: 0 5px 10px 5px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid wheat;
+}
+
+code .Recommended {
+    color: olivedrab;
+}
+
+code .NotRecommended {
+    color: firebrick;
+}
+
+code .Language {
+    font-family: Arial;
+    text-shadow: 0 -1px 2px #333333, 0 1px 1px #FFFFFF;
+    color: #CCCCCC;
+}
+
+code .Language > .PHP {
+    background-color: #99c;
+    border-radius: 50%;
+    padding: 1px 10px 4px 10px;
+    margin-bottom: 4px;
+}
+
+code .Language > .JS {
+    background-color: orangered;
+    padding: 3px;
+}
+
+.Quote {
+    color: #666;
+    margin: 20px;
+    text-align: center;
+}
+
+aside.Note {
+    text-align: justify;
+    border: 1px solid #666;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+}
+
+aside.Note > h4 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.Page > section {
+    min-height: calc(100% - 178px) !important;
+}
